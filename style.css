@@ -1,0 +1,28 @@
+@keyframes animacao {
+
+    0% {background-color: rgb(212, 71, 212);width: 1320px;}
+    30% {background-color: rgb(24, 44, 136);width: 900px;}
+    60% {background-color: rgb(10, 121, 38);width: 600px;}
+    80% {background-color: rgb(255, 251, 20);width: 400px;}
+    90% {background-color: rgb(250, 142, 0);width: 200px;}
+    100% {background-color: rgb(255, 0, 0);width: 20px;}
+    }
+    
+    * {
+        background-color: black;
+    }
+    
+    .container {
+        width: 1366px;
+        height: 100px;
+        background-color: purple;
+        animation-name: animacao;
+        animation-duration: 6s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        margin: 0;
+        position: absolute;               
+        top: 50%;                         
+        transform: translate(0, -50%)
+    }
+    
